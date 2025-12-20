@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="solutions to lab 4">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="icon" type="image/jpg" sizes="180x180" href="./assets/iconEdited.jpg">
+        <link href="./style.css" rel="stylesheet">
+        <script src="./script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Lab 04</h1>
+        </header>
+        <main>
+            <section id="prob1">
+                <h2>My Favourite Websites</h2>
+                <section>
+                     <ul id="siteList">
+
+                     </ul>
+                </section>
+            </section>
+
+            <section id="prob2">
+                <h2>Palindrome Checker</h2>
+               
+                <section>
+                    <form>
+                        <label for="palindromeInput">Enter a word or phrase:</label>
+                        <input type="text" id="palindromeInput" name="palindromeInput" required>
+                        <button type="button" id="goBtn" onClick="checkPalindrome(document.getElementById(`palindromeInput`))">Go!</button>
+                    </form>
+                </section>
+                
+                <section>
+                        <h3 id="palindromeResult"></h3>
+                </section>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>

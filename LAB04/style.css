@@ -1,0 +1,93 @@
+ @font-face {font-family:KlarissaShadow; src:url('/assets/KlarissaShadow.ttf');}
+
+ * {    box-sizing: border-box; 
+        margin: 0px; 
+        padding: 0px;
+        font-family: Lexend, sans-serif;
+        color: #3B413C;
+    }
+
+    h1 {font-family: KlarissaShadow; 
+        font-size: 5rem; 
+        text-align: center; 
+        text-shadow: 3px 3px 10px #DAF0EE;
+    }
+    h2 {font-size: 2rem; text-align: center; }
+    h3 {font-size: 1.5rem; text-align: center;  }
+    p  {font-size: 1rem; }
+    a  {font-size: 1rem; color: #9DB5B2}
+    ul {padding-top: 1vw;}
+       
+body   {display: grid;
+        grid-template-rows: 2fr 9fr 1fr;
+        background-color: #9DB5B2;
+        }
+
+    main   {display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+
+        main > * {  margin: 2vw; 
+                    padding: 1vw;
+                    background-color: #94D1BE;
+                    border: 0.5vw solid #3B413C;
+                    border-radius: 1vw;
+                }
+
+        #prob1 {display: grid;
+                grid-template-rows: 1fr 5fr;
+                gap: 1vw;
+        }
+            #prob1 > *{background-color: #DAF0EE; border-radius: 1vw;}
+
+
+        #prob2 {display:grid;
+                grid-template-rows: 1fr 2fr 3fr;
+                gap: 1vw;
+        }
+            #prob2 > *{background-color: #DAF0EE; border-radius: 1vw;}
+            #prob2 section {    display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                            }
+            label { font-size: 1.25rem}
+            input {font-size: 1.25rem}
+            button {font-size: 1.25rem; background-color: #FFFFFF; border-radius: 0.5vw;}
+
+/*----------------Medium Screens----------------------*/
+@media (max-width: 960px) {
+    body {grid-template-rows: 2fr 21fr 1fr;}
+    main {  display: flex;
+            flex-direction: column;
+           align-items: center;
+    }
+        main > * {height: 50vw; width: 75vw;}
+    
+    h1 {font-size: 4rem;}
+    h2 {font-size: 2rem;}
+    h3 {font-size: 1.5rem;}
+    p  {font-size: 1rem; }
+    a  {font-size: 1rem;}
+
+    label { font-size: 1.25rem}
+    input {font-size: 1.25rem}
+    button {font-size: 1.25rem; }
+}
+
+/*----------------Small Screens----------------------*/
+@media screen and (max-width: 480px){
+
+    main > * {height: 50vw; width: 85vw;}
+
+    h1 {font-size: 3rem;}
+    h2 {font-size: 1.25rem;}
+    h3 {font-size: 0.75rem;}
+    p  {font-size: 0.7rem; }
+    a  {font-size: 0.7rem;}
+
+    label { font-size: .75rem}
+    input {font-size: .75rem}
+    button {font-size: .75rem; }
+}
+            

@@ -20,7 +20,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Tech**: HTML, CSS, Bootstrap
 > 
-> **Status**: as submitted, partially complete, not posted
+> **Status**: as submitted, partially complete
   
 ## LAB 4
 > **Topic**: interacting with the user through JS

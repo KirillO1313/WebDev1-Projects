@@ -10,23 +10,31 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 
 ## LAB 2 
 > **Topic**: further HTML and CSS
+> 
 > **Tech**: HTML, CSS
+> 
 > **Status**: as submitted, incomplete, not posted
   
 ## LAB 3
 > **Topic**: making responsive pages with vanilla CSS vs Bootstrap CSS
+> 
 > **Tech**: HTML, CSS, Bootstrap
+> 
 > **Status**: as submitted, partially complete, not posted
   
 ## LAB 4
-> **Topic**: 
-> **Tech**: 
-> **Status**:  
+> **Topic**: interacting with the user through JS
+> 
+> **Tech**: vanilla JavaScript
+> 
+> **Status**: as submitted, complete, not posted
 
 ***
 
 ## LAB 
-> **Topic**: 
-> **Tech**: 
+> **Topic**:
+> 
+> **Tech**:
+> 
 > **Status**:  
 

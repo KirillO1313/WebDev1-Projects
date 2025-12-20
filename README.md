@@ -27,7 +27,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Tech**: vanilla JavaScript
 > 
-> **Status**: as submitted, complete, not posted
+> **Status**: as submitted, complete 
 
 ***
 

@@ -2,8 +2,10 @@
 A collection of lab assignments from my Intro to WebDev course. Some projects are presented as originally submitted, while others are undergoing improvements with additional features, refinements, and fixes, especially those that didn’t initially receive full marks.
 
 ## LAB 1
-> **Topic**: Introduction to HTML and CSS  \n
+> **Topic**: Introduction to HTML and CSS
+> 
 > **Tech**: HTML, with in-line styling
+> 
 > **Status**: as submitted, complete
 
 ## LAB 2 

@@ -1,0 +1,40 @@
+@font-face {   font-family:MysteryQuest; src:url('./assets/Mystery_Quest/MysteryQuest-Regular.ttf'); } 
+
+.container { font-family: 'Lexend', sans-serif;}
+
+* { box-sizing: border-box; 
+    margin:0;
+    padding:0;
+    color: aliceblue;
+}
+
+h1 {    font-family: MysteryQuest; 
+        font-size: 5rem; 
+        text-align: center;
+        padding-top: 2vw;
+
+    }
+h2 { font-size: 3rem; text-shadow: #230C33 0.1vw 0.1vw 0.2vw;}
+h3 { font-size: 2rem; text-shadow: #230C33 0.1vw 0.1vw 0.2vw;}
+h4 { font-size: 1rem; }
+p { font-size: 1.25rem;
+    margin: 1vw;
+    }
+
+header {    background-image:url('./assets/headerBacker.jfif'); 
+            height: 10vw;
+        }
+
+
+main { background-color: #592E83;}
+
+nav { background-color: #CAA8F5;}
+
+#Home .row {background-color: #CAA8F5;}
+
+.row > * { background-color:  #9984D4;}
+
+.petCard {  background-color: #B27C66;
+            border: 2px solid #230C33;}
+
+#lastestImgs { height: 20vw;}

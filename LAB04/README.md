@@ -8,7 +8,7 @@ Allow the user to enter a string, determine whether it is a palindrome, and disp
 ## What I Learned
 This lab covered core JavaScript concepts such as arrays, loops, functions, and DOM manipulation. 
 ###### Problem 1: 
-I created an array of site objects and dynamically added them to the page as <li> elements. Each list item 
+I created an array of site objects and dynamically added them to the page as ```<li>``` elements. Each list item 
 displays the site’s name, link, and a connection-type icon. A for loop and a helper function were used to 
 generate and append each list item to the DOM.
 ###### Problem 2:

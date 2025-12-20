@@ -17,7 +17,8 @@ the input (ensuring it is not empty and does not contain numbers), processes the
 and determines whether it is a palindrome. A message is then displayed based on the result.
 
 ## Status/Structure
+Status: as submitted, complete
 + index.html
 + style.css
 + script.js
-Status: as submitted, complete
+

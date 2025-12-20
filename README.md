@@ -2,7 +2,7 @@
 A collection of lab assignments from my Intro to WebDev course. Some projects are presented as originally submitted, while others are undergoing improvements with additional features, refinements, and fixes, especially those that didn’t initially receive full marks.
 
 ## LAB 1
-> **Topic**: Introduction to HTML and CSS
+> **Topic**: Introduction to HTML and CSS  \n
 > **Tech**: HTML, with in-line styling
 > **Status**: as submitted, complete
 
@@ -21,6 +21,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > **Tech**: 
 > **Status**:  
 
+***
 
 ## LAB 
 > **Topic**: 

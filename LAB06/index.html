@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="solutions to lab 5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title>Lab 06</title>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="icon" type="image/jfif" sizes="180x180" href="./assets/icon.jfif">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Lab 6</h1>
+        </header>
+       
+        <main>
+            <section class="mainProb">
+                <svg width="100%" height="100%" viewBox="0 0 600 600" >
+                     <!--TEMPLATES-->
+                        <symbol id="heartTemplate" width="300" height="300">
+                            <path d="   M 80 175 
+                                        T 110 200 
+                                        Q 130 215 150 250 
+                                        Q 170 215 190 200 
+                                        T 220 175 
+                                        A 65 100 30 1 0 150 55 
+                                        A 65 100 -30 1 0 80 175"/>
+                        </symbol>
+
+                        <symbol id="tailTemplate" width="300" height="300">
+                            <path d="   M 135 150 
+                                        Q 150 190 120 225 
+                                        H 180 
+                                        Q 150 190 165 150   Z"/>
+                        </symbol>
+
+                        <symbol id="diamondTemplate"> 
+                             <polygon points="75,150 150,25 225,150 150,275"/>
+                        </symbol>
+
+                    <!--CLUB-->
+                        <path d="   M 140 200 
+                                    A 50 55 15 1 1 115 125 
+                                    A 50 60 0 1 1 185 125 
+                                    A 50 55 -15 1 1 160 200     Z" 
+                        style="fill:#027F00;"/>
+                        <use href="#tailTemplate" x="0" y="25"
+                        style="stroke:none; fill: #027F00; fill-rule:nonzero"/>
+
+                    <!--DIAMOND--> 
+                       <use href="#diamondTemplate" x="300" y="0"
+                        style="stroke:none; fill: #0000FE; fill-rule:nonzero"/>
+
+                    <!--HEART-->
+                        <use href="#heartTemplate" x="0" y="300" transform="scale(0.9) translate(0,50)"
+                        style="stroke-width:1; fill:#FE0100; stroke:none;"/>
+                    
+                    <!--SPADE-->
+                        <use href="#heartTemplate" x="300" y="300"
+                        style="fill:#000000; stroke:none;"
+                        transform="rotate(180, 450, 450) scale(0.75) translate(150, 225)"/>
+                        <use href="#tailTemplate" x="300" y="300"
+                        style="fill:#000000; stroke:none;"/>  
+                </svg>
+            </section>
+
+            <section class="mainProb">
+               <svg  width="100%" height="100%" viewBox="0 0 600 600" >
+
+                    <path id="firstNamePath" d="M 210 270 Q 300 220 395 270 Z " fill="transparent"/>
+                    <text id="firstName" letter-spacing="-10">
+                        <textpath href="#firstNamePath">  Kirill</textpath>
+                    </text>
+
+                    <path  d="M 50 345 Q 300 190 550 345" 
+                    style ="stroke:red; fill:none; stroke-width:10;"/>
+
+                    <text x="150" y="375" id="lastName">Oparin</text>
+
+               </svg>
+            </section>
+        </main>
+        
+        <footer></footer>
+    </body>
+</html>

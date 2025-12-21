@@ -36,7 +36,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Status**:  as submitted, incomplete
 
-## LAB 6 NOT POSTED
+## LAB 6 
 > **Topic**: Scalable Vector Graphics (SVG)
 > 
 > **Tech**: HTML, CSS, SVG (using ```<svg>``` tag)

@@ -43,7 +43,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Status**: as submitted, complete 
 
-## LAB 7 NOT POSTED
+## LAB 7 
 > **Topic**: server-side user interactions: ...
 > 
 > **Tech**: HTML, CSS, Perl CGI

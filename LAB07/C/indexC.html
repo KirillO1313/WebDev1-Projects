@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 7c; user uploaded files</title>
+        <link rel="stylesheet" href="./lab07c.css">
+    </head>
+    <body>
+        <header>
+            <h1>MEME Maker</h1>
+        </header>
+        <main>
+            <div></div>
+            <section>
+                <form action="/lab07c.cgi" method="post" enctype="multipart/form-data">
+                    <label for="UserTextInput">Enter Your Text Here:</label>
+                    <textarea name="UserTextArea" placeholder="Maximum 100 characters..." rows="10" required maxlength="100"></textarea>
+                    <br>
+                    <label for="UserFileInput">Upload Your File</label>
+                    <input type="file" name="UserFileInput">
+                    <br>
+                    <input type="submit" value="GO!">
+                </form>
+            </section>
+            <div></div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

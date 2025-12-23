@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <h1>Book a Room</h1>
+        </header>
+        <main>
+            <div>
+                <form action="/lab07b.cgi" method="post"> <!-- ~/cgi_bin/lab07b.cgi -->
+                    <h2>Your Name</h2>
+                        <label for="firstName">First Name: </label>
+                        <input type="text" name="firstName" required>
+                        <br>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" required>
+                        <br>
+
+                    <h2>Your Address</h2>
+                        <label for="province">Province/Territory: </label>
+                        <select name="province" required>
+                            <option value="Alberta">Alberta</option>
+                            <option value="British Columbia">British Columbia</option>
+                            <option value="Manitoba">Manitoba</option>
+                            <option value="New Brunswick">New Brunswick</option>
+                            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                            <option value="Nova Scotia">Nova Scotia</option>
+                            <option value="Ontario">Ontario</option>
+                            <option value="Prince Edward Island">Prince Edward Island</option>
+                            <option value="Quebec">Quebec</option>
+                            <option value="Saskatchewan">Saskatchewan</option>
+                            <option value="Northwest Territories">Northwest Territories</option>
+                            <option value="Nunavut">Nunavut</option>
+                            <option value="Yukon">Yukon</option>
+                        </select>
+                        <br>
+                        <label for="city">City: </label>
+                        <input type="text" name="city" required> 
+                        <br>
+                        <label for="postal">Postal Code: </label>
+                        <input type="text" name="postal" required> 
+                        <br>
+                        <label for="streetAdrs">Street Addres: </label>
+                        <input type="text" name="streetAdrs" required> 
+
+
+                    <h2>Your Contact Information</h2>
+                        <label for="tel">Phone Number: </label>
+                        <input type="text" name="tel" required> 
+                        <br>
+                        <label for="email">Email Address: </label>
+                        <input type="text" name="email" required> 
+
+                    <h2>Your Stay</h2>
+                        <label for="startDate">Check In Date: </label>
+                        <input type="date" name="startDate" required> 
+                        <br>
+                        <label for="endDate">Check Out Date: </label>
+                        <input type="date" name="endDate" required> 
+                        <br>
+                        <label for="guestNum">Number of Guests: </label>
+                        <select name="guestNum" required> 
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <br>
+
+                    <h2>Your Paynment Information</h2>
+                        <label for="cardType">Card Type: </label>
+                        <select name="cardType" required> 
+                            <option value="Visa">Visa</option>
+                            <option value="Mastercard">Mastercard</option>
+                            <option value="American Express">American Express</option>
+                            <option value="Paypal">Paypal</option>
+                            <option value="Debit Card">Debit Card</option>
+                        </select>
+                        <br>
+                        <label for="cardNum">Card Number: </label>
+                        <input type="text" name="cardNum" required> 
+                        <br>
+                        <label for="cardExpiry">Expiry Date: </label>
+                        <input type="date" name="cardExpiry" required> 
+
+                    <br>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

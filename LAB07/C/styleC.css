@@ -1,0 +1,30 @@
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+body {  display: grid;
+        grid-template-rows: 1fr 7fr 1fr;
+        gap: 1vw;
+}
+
+header {    display: flex;
+            align-items: center; 
+            justify-content: center;
+}
+
+main {  border-radius: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;  
+        gap:  1vw;
+}
+
+main section {  border-radius: 1vw; }
+
+form {  display: flex;
+        flex-direction: column;
+        padding: 1vw;
+
+}
+

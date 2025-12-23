@@ -1,0 +1,78 @@
+
+            <!--
+                            see you soon name!
+
+                contact info:       Billing Information  
+                -------             -------         -------
+                -------             -------         -------
+
+BONUS!!!!       Your Stay               Total:                 
+                num guests: x           $guests*staydays*130
+                length stay: x days
+            -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            * { border: 1px solid black;
+
+            }
+
+            main {  display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    
+            }
+
+            main div { display: grid;
+                    grid-template-columns: 1fr 1fr;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+             <h1>See You Soon $firstName $lastName!</h1>
+        </header>
+        <main>
+            <div>
+                <div>
+                    <h2>Contact Information</h2>
+                    <h3 name="email">$email</h3>
+                    <h3 name="phone">$tel</h3>
+                </div>
+
+                <div>
+                    <h2>billing Information</h2>
+                    <div>
+                        <h3 name="streetAd">$addres</h3>
+                        <h3 name="postal">$postal</h3>
+                    </div>
+
+                    <div>
+                        <h3 name="cardNum">$cardNum</h3>
+                        <h3 name="expiry">$cardExpiry</h3>
+                        <h3 name="type">$cardType</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Your Stay</h3>
+                    <h4>Number of guests: ...</h4>
+                    <h4>Length of stay: ...</h4>
+                </div>
+
+                <div>
+                    <h3>Total</h3>
+                    <h4>$ ...</h4>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

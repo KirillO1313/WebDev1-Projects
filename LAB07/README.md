@@ -27,7 +27,7 @@ the form's action attribute points to the cgi script. the script
 
 > ###### folder B
 > + indexB.html : user input page
-> + infoDisplayB.html : after user info is processed, displayed on this page
+> + infoDisplayB.html : draft for the content display; printed in script
 > + scriptB.cgi : processes the info entered by user
 
 > ###### folder C

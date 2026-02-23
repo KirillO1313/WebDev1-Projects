@@ -50,14 +50,14 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Status**: as submitted, complete 
 
-## LAB 8 NOT POSTED
+## LAB 8
 > **Topic**: server-side user interactions: ...
 > 
 > **Tech**: HTML, CSS, PHP
 > 
 > **Status**: as submitted, complete 
 
-## LAB 9 NOT POSTED
+## LAB 9 
 > **Topic**: introduction to MySQL: ...
 > 
 > **Tech**: HTML, CSS, PHP,(the stuff i had to do to make a table), MySQL

@@ -1,0 +1,145 @@
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: #393d3f;
+}
+
+/*TEXT*/
+h1 { font-size: 5rem; color:#E0E2DB; text-shadow: 3px 3px 3px #707d7d;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.5rem; color: #780000;}
+label { font-size: 1.25rem;}
+input { font-size: 1.25rem; font-weight: 500;}
+select { font-size: 1.25rem; font-weight: 500;}
+.btn {  width: fit-content;
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 0.12.5vw;
+}
+
+/*LAYOUT*/
+body {  display: grid;
+        grid-template-rows: 1fr 7fr 1fr;     
+        background-color: #889696;
+        padding-top: 1vw;
+}
+    header {    display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 5vw;
+    }
+
+    main {  display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1vw;
+    }
+
+
+
+    #mainContent {  display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 1vw;
+                    padding-left: 1vw;
+                    padding-right: 1vw;
+                    border: 0px;
+                    background-color: #889696;
+    }
+        section {   border: 0.5vw solid #5F7470;
+                    border-radius: 1vw;      
+                    background-color: #B8BDB5;
+        }
+
+        #prob1 .p1Display {
+            width: auto;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #prob2 {    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    gap: 1vw;
+                    padding: 1vw;
+        }
+            .prob2Child {   border: 2px solid #5F7470; 
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: 0.5vw;
+                            text-align: center;
+            }
+                #prob2 form {   display: grid;
+                                grid-template-rows: 3fr 1fr;
+                                justify-items: center;
+                                align-content: center;
+                                padding: 1vw;
+                } 
+                    #numInputs {    display: grid;
+                                    grid-template-rows: 1fr 1fr;
+                                    gap: 1vw;
+                                    border: 0px ;
+                    }
+                        .inputWrapper { display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        padding: 0.5vw;
+                        }
+     
+    #prob3 {    padding: 1vw; } 
+        .prob3Child {   display: grid;
+                        grid-template-rows: 3fr 1fr;
+        }
+            #imageChoices { display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            gap: 1vw;
+            }
+                .imgChoice {
+                            position: relative;
+                            overflow: hidden;
+                }
+                    .selectionImage {   width: 100%;
+                                        height: 100%;
+                                        display: block;
+                    }
+                    .imgOptionLabel {   position: absolute;
+                                        bottom: 0.5vw;
+                                        left: 0.5vw;
+                                        color: aliceblue;
+                                        font-size: 1.5rem;
+                    }
+            
+            #prob3 form {   display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 0.5vw;
+            }
+                #prob3 form div {   display: flex;
+                                    flex-direction: row;
+                                    gap: 1vw;
+                }
+
+
+#FavImgDisplay {    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+}
+
+#FavImgDisplay img {    border-radius: 1vw;
+                        border: 0.5vw solid #5F7470;
+                        width: 50vw;
+                        height: auto;
+}
+
+           
+

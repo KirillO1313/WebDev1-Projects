@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 10: Input</title>
+        <style>
+            * { box-sizing: border-box;
+                padding: 0%;
+                margin: 0%;
+                color: #222823;
+                font-family: Georgia, serif;
+            }
+
+            label { color: #F4F7F5}
+            .sub {  padding: 0.1vw;
+                    color: #222823;
+                    background-color: #F4F7F5;
+                }
+
+
+            body {  display: grid;
+                    grid-template-rows: 1fr 10fr 1fr;
+                    background-color: #F4F7F5;
+                }
+
+            header {    display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                    }
+
+            main {  display: grid;
+                    grid-template-columns: 1fr 4fr 1fr;
+                }
+
+            #content {  display: grid;
+                        grid-template-columns: 1fr 2fr 1fr;
+            }
+
+            form {  display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding: 2vw;
+                    border: 0.5vw solid #222823;
+                    border-radius: 1vw;
+                    background-color: #A7A2A9;
+                }
+
+                form div {  padding: 0.5vw;
+                            background-color: #575A5E;
+                            border-radius: 1vw;
+                }
+                #submitDiv {display: flex;
+                            flex-direction: column;    
+                            align-items: center;
+                            justify-content: center;
+                            transform: translate(75%);
+                            gap: 1vw;
+                }
+
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div></div>
+            <div id="content">
+                <div></div>
+                <form>
+                    <h1>Build-a-Postcard</h1>
+                    <br>
+                    <div>
+                        <label for="cityInput">City Name:</label>
+                        <input type="text" name="cityInput">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="countryInput">Country Name:</label>
+                        <input type="text" name="countryInput">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="urlInput">Image URL:</label>
+                        <input type="" name="urlInput">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="colorInput">Text and Border Color:</label>
+                        <input type="color" name="colorInput" value="#000000">
+                    </div>
+                    <br>
+                    <div id="submitDiv">
+                        <input class="sub" type="submit" value="ASP Submit" formaction="">
+                        <input class="sub" type="submit" value="CGI/Ruby Submit" formaction="">
+                        <input class="sub" type="submit" value="CGI/Python Submit" formaction="">
+                    </div>
+                </form>
+                <div></div>
+            </div>
+            <div></div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

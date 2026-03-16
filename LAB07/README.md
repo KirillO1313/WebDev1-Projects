@@ -17,8 +17,9 @@
 used ```qq()``` to print out HTML content, styled with ```<style>``` tag in ```<head>```
 #### Part B
 created form with ```<select>``` and text type inputs. form is processed with perl script, 
-the form's action attribute points to the cgi script. the script 
+the form's action attribute points to the cgi script. 
 #### Part C
+took in an image and text with an HTML form, redirected to a perl script with forms actions attribute, script cleans filename, uploads image to server, and displays the result
 
 
 ## file structure:
@@ -32,5 +33,6 @@ the form's action attribute points to the cgi script. the script
 
 > ###### folder C
 > + indexC.html : user input page
-> + infoDisplayC.html : after input is proccesed, displays here
-> + styleC.css : stylesheet for part C
+> + scriptC.cgi: perl script uploads submitted image to server, displays result
+> + styleC.css : stylesheet for index
+> + infoDisplayC.html : a plan for the info display HTML used in the script

@@ -23,7 +23,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > **Status**: as submitted, partially complete
   
 ## LAB 4
-> **Topic**: client-side user interactions: ...
+> **Topic**: client-side user interactions: recieving and processing a string
 > 
 > **Tech**: HTML, CSS, vanilla JavaScript
 > 

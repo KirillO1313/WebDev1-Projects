@@ -43,14 +43,14 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Status**: as submitted, complete 
 
-## LAB 7
+## LAB 7 got lost, needs reupload
 > **Topic**: introduction to MySQL: ...
 > 
 > **Tech**: HTML, CSS, PHP,(the stuff i had to do to make a table), MySQL
 > 
 > **Status**: as submitted, complete 
 
-## LAB 8 NOT POSTED
+## LAB 8 
 > **Topic**:  server-side user interactions: ...
 > 
 > **Tech**: HTML, CSS, classic ASP, Python (2) CGI, Ruby CGI

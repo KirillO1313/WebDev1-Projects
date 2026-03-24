@@ -5,7 +5,7 @@ Display a list of website links, including an icon indicating whether each site 
 ###### Problem 2:
 Allow the user to enter a string, determine whether it is a palindrome, and display a message indicating the result.
 
-## My Experience 
+## Implementation Notes
 This lab covered core JavaScript concepts such as arrays, loops, functions, and DOM manipulation. 
 ###### Problem 1: 
 I created an array of site objects and dynamically added them to the page as ```<li>``` elements. Each list item 

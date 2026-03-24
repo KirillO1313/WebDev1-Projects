@@ -43,7 +43,7 @@ A collection of lab assignments from my Intro to WebDev course. Some projects ar
 > 
 > **Status**: as submitted, complete 
 
-## LAB 7 got lost, needs reupload
+## LAB 7 
 > **Topic**: introduction to MySQL: ...
 > 
 > **Tech**: HTML, CSS, PHP,(the stuff i had to do to make a table), MySQL

@@ -8,7 +8,7 @@ Create a curved line separating a first and last name. The first name was requir
 ###### Problem 2: 
 Create the shapes for playing card suits and fill them with their required colors.
 
-## My Experience
+## Implementation Notes
 
 The SVGs were created using the <svg> element and path-based shapes.
 

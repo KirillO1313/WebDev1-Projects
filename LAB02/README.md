@@ -6,7 +6,7 @@ different approaches to responsive design.
 + Version A uses CSS media queries to control layout and styling across screen sizes.
 + Version B uses Bootstrap to implement a responsive layout using its grid system and components.
   
-## My Experience
+## Implementation Notes
 Between the two approaches, I preferred working with media queries, as I understand them better and find the 
 resulting code cleaner and easier to follow. Bootstrap felt more restrictive by comparison, mainly due to its 
 limited set of predefined breakpoints and the continued need for custom CSS for finer control. That said, 

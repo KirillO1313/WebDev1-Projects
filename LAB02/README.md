@@ -17,7 +17,7 @@ significant time-saver once I’m more comfortable with it, since responsive lay
 #### Version A (Media Queries)
 indexA.html: HTML for Version A
 
-styleA.css: CSS for Version A (uses media queries)
+styleA.css: CSS for Version A  
 
 Status: Complete
 

@@ -16,14 +16,17 @@
 
 ###### Problem B 
 > Form collects two integers, i and j (3-12 inclusive), from user input
+
 > `checkInputValidity()` function validates input:
-> > Ensures values contain only digits
-> > Checks minimum (3) and maximum (12) bounds
-> > Returns error messages for invalid inputs
+> Ensures values contain only digits
+> Checks minimum (3) and maximum (12) bounds
+> Returns error messages for invalid inputs
+
 > Generates an HTML multiplication table where:
-> > First row and column contain headers (styled differently)
-> > Diagonal cells (where i == j) have distinct styling
-> > Standard cells display multiplication results
+> First row and column contain headers (styled differently)
+> Diagonal cells (where i == j) have distinct styling
+> Standard cells display multiplication results
+
 > Displays validation errors if input is invalid
 
 ###### Problem C

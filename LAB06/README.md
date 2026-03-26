@@ -1,5 +1,5 @@
 ## assignment description 
-> ###### Problem A Time-based Greeting
+> ###### Problem A  
 > Explains the time-based greeting system with different messages and styling for each time period
 
 > ###### Problem B 
